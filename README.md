@@ -7,8 +7,8 @@ https://adventofcode.com/
 Day | First Challenge | Second Challenge
 :-: | :-------------: | :--------------:
 1   | Done            | Done
-2   | TODO            | TODO
-3   |
+2   | Done            | TODO
+3   | TODO            | TODO
 4   |
 6   |
 7   |
