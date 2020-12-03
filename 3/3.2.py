@@ -22,7 +22,7 @@ for slope in slopes:
     right = 0
     down = 0
 
-    for line in lines[1::slope[1]]:
+    for line in lines[slope[1]::slope[1]]:
         line = line.strip()
         right += slope[0]
         right %= len(line)
