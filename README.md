@@ -8,7 +8,7 @@ Day | First Challenge | Second Challenge
 :-: | :-------------: | :--------------:
 1   | Done            | Done
 2   | Done            | Done
-3   | Done            | TODO
+3   | Done            | Done
 4   |
 6   |
 7   |
