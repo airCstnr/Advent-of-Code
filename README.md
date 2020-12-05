@@ -9,7 +9,8 @@ Day | First Challenge | Second Challenge
 1   | Done            | Done
 2   | Done            | Done
 3   | Done            | Done
-4   |
+4   | Done            | TODO
+5   | TODO            | TODO
 6   |
 7   |
 8   |
