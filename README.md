@@ -12,7 +12,7 @@ Day | First Challenge | Second Challenge
 4   | Done            | Done
 5   | Done            | Done
 6   | Done            | Done
-7   |
+7   | Done            | Done
 8   |
 9   |
 10  |
