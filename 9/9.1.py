@@ -2,8 +2,8 @@
 
 import sys
 
-if len(sys.argv) != 2:
-    print("usage : python 9.1 input_file")
+if len(sys.argv) != 3:
+    print("usage : python 9.2 input_file preamble_length")
     exit()
 
 with open(sys.argv[1], 'r') as f:
@@ -11,6 +11,7 @@ with open(sys.argv[1], 'r') as f:
 
 lines = [int(line.strip()) for line in lines]
 
+preamble_length = int(sys.argv[2])
 first_number = 0
 available_numbers = []
 
@@ -20,7 +21,7 @@ def check_number(number):
     """
     global available_numbers
     for i, n1 in enumerate(available_numbers):
-        for j, n2 in enumerate(available_numbers[i:]):
+        for n2 in available_numbers[i:]:
             if n1 + n2 == number:
                 return True
     return False
@@ -29,7 +30,7 @@ def check_number(number):
 for index, line in enumerate(lines):
     # store preamble number
     available_numbers.append(line)
-    if index >= 25:
+    if index >= preamble_length:
         # check number
         if check_number(line):
             available_numbers.pop(0)
