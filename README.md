@@ -15,9 +15,9 @@ Day | First Challenge | Second Challenge
 7   | Done            | Done
 8   | Done            | Done
 9   | Done            | Done
-10  |
-11  |
-12  |
+10  | Done            | TODO
+11  | Done            | Done
+12  | TODO            | TODO
 13  |
 14  |
 15  |
