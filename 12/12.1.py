@@ -47,4 +47,5 @@ for line in lines:
         else:
             raise Exception('Unexpected orientation')
 
-print("Manhattan distance :", sum(position))
+distance = abs(position[0]) + abs(position[1])
+print("Manhattan distance :", distance)
