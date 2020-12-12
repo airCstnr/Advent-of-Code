@@ -13,6 +13,8 @@ lines = [int(line.strip()) for line in lines]
 lines = sorted(lines)
 
 goal = max(lines) + 3
+full_list = [0] + lines + [goal]
+
 
 def memoize(f):
     """
@@ -26,44 +28,49 @@ def memoize(f):
     return helper
 
 
-#@memoize
+@memoize
+def neighbors(index):
+    """
+    Returns neighbors for given index
+    """
+    global full_list
+    candidates = []
+    # candidate must be away of 3 steps maximum
+    for add in range(1, 4):
+        try:
+            diff = full_list[index+add] - full_list[index]
+            # candidate is already too far
+            if diff > 3:
+                break
+            else:
+                candidates.append(index+add)
+        except:
+            break
+    return candidates
+
+
+@memoize
 def count_number_of_distinct_ways(index):
     """
-    Count number of distinct ways from one adapter
+    Count number of distinct ways are accessibles from given index
     """
     global lines
-    number_of_distinct_ways = 0
-    print(index, ":", lines[index:])
+    if index == len(lines):
+        # latest element in the list (must be reached)
+        return 1
 
-    if lines[index]
+    # count number of distinct ways for each neighbour
+    num_sequences = 0
+    for position in neighbors(index):
+        num_sequences += count_number_of_distinct_ways(position)
+    return num_sequences
 
-    step = 1
-
-    while index+step<len(lines):
-        number_of_distinct_ways += count_number_of_distinct_ways(index+step)
-        step += 1
-    return number_of_distinct_ways
 
 """
-    for step in range(1, 4):
-        print(lines[next_index])
-    return number_of_distinct_ways
-        if index+next_index < len(lines):
-            diff = lines[index+next_index] - lines[index]
-            if diff in range(1, 4):
-                number_of_distinct_ways += count_number_of_distinct_ways(index+next_index)
-            else:
-                # not a valuable
-                break
-        else:
-            # can't continue further
-            number_of_distinct_ways += 1
-            break
-
-    print("end >", index, number_of_distinct_ways)
-    return number_of_distinct_ways
+print(full_list)
+for index in range(len(full_list)):
+    print(index, ':', neighbors(index))
 """
 
 number_of_distinct_ways = count_number_of_distinct_ways(0)
-
 print('number of distinct ways :', number_of_distinct_ways)
