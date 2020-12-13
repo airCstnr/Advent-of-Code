@@ -11,7 +11,7 @@ with open(sys.argv[1], 'r') as f:
 
 lines = [line.strip() for line in lines]
 
-#           N  E        
+#           N  E
 position = [0, 0]
 orientation = 0 # E
 
