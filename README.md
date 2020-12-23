@@ -19,15 +19,15 @@ Day | First Challenge | Second Challenge
 11  | Done            | Done
 12  | Done            | Done
 13  |
-14  |
-15  |
-16  |
-17  |
-18  |
-19  |
-20  |
-21  |
-22  |
-23  |
+14  | Done            | TODO
+15  | TODO            | TODO
+16  | TODO            | TODO
+17  | TODO            | TODO
+18  | TODO            | TODO
+19  | TODO            | TODO
+20  | TODO            | TODO
+21  | TODO            | TODO
+22  | TODO            | TODO
+23  | TODO            | TODO
 24  |
 25  |
