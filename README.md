@@ -18,8 +18,8 @@ Day | First Challenge | Second Challenge
 10  | Done            | Done
 11  | Done            | Done
 12  | Done            | Done
-13  |
-14  | Done            | TODO
+13  | TODO            | TODO
+14  | Done            | Done
 15  | TODO            | TODO
 16  | TODO            | TODO
 17  | TODO            | TODO
@@ -29,5 +29,5 @@ Day | First Challenge | Second Challenge
 21  | TODO            | TODO
 22  | TODO            | TODO
 23  | TODO            | TODO
-24  |
-25  |
+24  | TODO            | TODO
+25  | TODO            | TODO
