@@ -6,7 +6,7 @@ https://adventofcode.com/2022
 
 | Day | First Challenge | Second Challenge |
 | :-: | :-------------: | :--------------: |
-|  1  |      TODO       |       TODO       |
+|  1  |      Done       |       Done       |
 |  2  |      TODO       |       TODO       |
 |  3  |      TODO       |       TODO       |
 |  4  |      TODO       |       TODO       |
