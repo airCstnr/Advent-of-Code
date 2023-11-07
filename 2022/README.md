@@ -1,25 +1,25 @@
-# Advent of Code 2020
+# Advent of Code 2022
 
-https://adventofcode.com/2020
+https://adventofcode.com/2022
 
 ## Calendar
 
 | Day | First Challenge | Second Challenge |
 | :-: | :-------------: | :--------------: |
-|  1  |      Done       |       Done       |
-|  2  |      Done       |       Done       |
-|  3  |      Done       |       Done       |
-|  4  |      Done       |       Done       |
-|  5  |      Done       |       Done       |
-|  6  |      Done       |       Done       |
-|  7  |      Done       |       Done       |
-|  8  |      Done       |       Done       |
-|  9  |      Done       |       Done       |
-| 10  |      Done       |       Done       |
-| 11  |      Done       |       Done       |
-| 12  |      Done       |       Done       |
+|  1  |      TODO       |       TODO       |
+|  2  |      TODO       |       TODO       |
+|  3  |      TODO       |       TODO       |
+|  4  |      TODO       |       TODO       |
+|  5  |      TODO       |       TODO       |
+|  6  |      TODO       |       TODO       |
+|  7  |      TODO       |       TODO       |
+|  8  |      TODO       |       TODO       |
+|  9  |      TODO       |       TODO       |
+| 10  |      TODO       |       TODO       |
+| 11  |      TODO       |       TODO       |
+| 12  |      TODO       |       TODO       |
 | 13  |      TODO       |       TODO       |
-| 14  |      Done       |       Done       |
+| 14  |      TODO       |       TODO       |
 | 15  |      TODO       |       TODO       |
 | 16  |      TODO       |       TODO       |
 | 17  |      TODO       |       TODO       |
