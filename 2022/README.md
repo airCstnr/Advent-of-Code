@@ -8,7 +8,7 @@ https://adventofcode.com/2022
 | :-: | :-------------: | :--------------: |
 |  1  |      Done       |       Done       |
 |  2  |      Done       |       Done       |
-|  3  |      TODO       |       TODO       |
+|  3  |      Done       |       Done       |
 |  4  |      TODO       |       TODO       |
 |  5  |      TODO       |       TODO       |
 |  6  |      TODO       |       TODO       |
